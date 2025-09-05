@@ -1,0 +1,45 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.venv/
+venv/
+env/
+
+# Packaging
+build/
+dist/
+.eggs/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDEs/Editors
+.vscode/
+.idea/
+
+# Logs and caches
+*.log
+.cache/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.coverage*
+coverage.xml
+htmlcov/
+
+# Experiment outputs (common ML tools)
+runs/
+lightning_logs/
+wandb/
+
+# Project-specific: exclude large model artifacts
+stroke_cnn_model.h5
+stroke_cnn_model.keras
+
